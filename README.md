@@ -1,4 +1,5 @@
 Computer Vision Practice and Projects Repository
+
 Welcome to the Computer Vision Practice and Projects Repository! This repository contains a collection of files and projects that I have been working on to learn and practice computer vision techniques. I will update this README as I continue to work on new projects and improve my skills.
 
 Practice Directory
