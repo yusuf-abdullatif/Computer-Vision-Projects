@@ -14,7 +14,7 @@ Feel free to explore the Practice directory to see my progress and the technique
 * Documentation and resources I've used during my learning process
 
 
-Projects:
+### Projects:
 
 The Projects directory is where I showcase my practical applications of computer vision. In this section, you'll find more structured and complete projects that demonstrate my ability to apply computer vision techniques to real-world problems. Each project may include:
 
@@ -25,11 +25,11 @@ The Projects directory is where I showcase my practical applications of computer
 
 As I work on new projects, I will update this section with links to project-specific READMEs and code repositories, providing more in-depth information about each project.
 
-Contributions:
+### Contributions:
 
 If you find any of my work interesting or have suggestions for improvement, please feel free to open issues or submit pull requests. I welcome collaboration and feedback from the community to enhance my understanding of computer vision and improve the quality of my projects.
 
-About Me:
+### About Me:
 
 I am a passionate learner and practitioner of computer vision, and this repository reflects my journey as I develop my skills in this exciting field. If you'd like to connect or collaborate, you can reach me via email or GitHub.
 
