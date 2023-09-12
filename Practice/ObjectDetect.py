@@ -30,7 +30,7 @@ def getContours(img):
 
 
 
-path = 'Resources/img.png'
+path = '../Resources/img.png'
 img = cv2.imread(path)
 imgContour = img.copy()
 
