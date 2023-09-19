@@ -8,19 +8,17 @@ cap.set(3, frameWidth)
 cap.set(4, frameHeight)
 cap.set(10,150)
 
-myColors = [[5,179,93,255,0,255],
-            [0,17,91,255,118,255],
-            [87,127,66,255,119,255]]
-
+myColors = [[5,93,0,179,255,255],
+            [0,96,113,179,255,255],
+            [0,88,139,179,255,255]]
 
 def findColor(im, myColors):
     imgHSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
     for color in myColors:
-        lower = np.array(color[0][::2])
-        upper = np.array(color[0][1::2])
+        lower = np.array(color[0:3])
+        upper = np.array(color[3:6])
     mask = cv2.inRange(imgHSV, lower, upper)
     cv2.imshow(str(color[0]), mask)
-
 
 while True:
     success, img = cap.read()
