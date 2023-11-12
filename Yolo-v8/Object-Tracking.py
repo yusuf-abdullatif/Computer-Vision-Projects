@@ -38,7 +38,7 @@ class Camera:
         return results
 
 
-cameraProcess = Camera('./ultralytics/duck.pt', 0)
+cameraProcess = Camera('./datasets/duck.pt', 0)
 
 while True:
     if cameraProcess.isCameraOpened:

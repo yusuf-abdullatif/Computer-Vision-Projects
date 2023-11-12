@@ -1,7 +1,7 @@
 import cv2
 
 # Load the pre-trained Haar Cascade classifier for face detection
-face_cascade = cv2.CascadeClassifier('Resources/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('../Resources/haarcascade_frontalface_default.xml')
 
 if face_cascade.empty():
     print("Error: Could not load the Haar Cascade classifier.")
